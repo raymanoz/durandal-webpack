@@ -14,4 +14,6 @@ Shell.activate = function() {
 	return router.activate();
 };
 
+Shell.foo = require('./foo');
+
 module.exports = Shell;
